@@ -43,4 +43,11 @@
 			opacity: 0.5;
 		}
 	}
+
+	@include max-height(500px) {
+		img,
+		.mask {
+			height: 100%;
+		}
+	}
 </style>

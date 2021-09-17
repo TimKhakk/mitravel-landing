@@ -167,4 +167,22 @@
 			height: 90px;
 		}
 	}
+
+	@include max-height(800px) {
+		main {
+			height: calc(100% - 88px);
+		}
+		label,
+		.video__bot {
+			padding: 30px 40px;
+			height: 90px;
+		}
+		.video {
+			grid-column: 3/4;
+		}
+
+		label {
+			grid-column: 1/3;
+		}
+	}
 </style>

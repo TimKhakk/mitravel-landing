@@ -60,4 +60,16 @@
 			font-size: 16px;
 		}
 	}
+
+	@include max-height(800px) {
+		header {
+			padding: 32px 0;
+		}
+		li:not(:last-child) {
+			margin-right: 32px;
+		}
+		.logo {
+			font-size: 16px;
+		}
+	}
 </style>

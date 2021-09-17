@@ -166,4 +166,17 @@
 			margin: 0;
 		}
 	}
+
+	@include max-height(800px) {
+		.container {
+			padding: 16px;
+		}
+	}
+
+	@include max-height(500px) {
+		.container {
+			height: 500px;
+			margin-bottom: 170px;
+		}
+	}
 </style>

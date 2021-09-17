@@ -1,5 +1,4 @@
 const smoothScroll = (e, height) => {
-	console.log(e);
 	if (e.wheelDeltaY < 0) {
 		window.scrollBy({
 			top: height.clientHeight,

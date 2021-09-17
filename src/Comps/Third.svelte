@@ -239,7 +239,7 @@
 			font-size: 1.5em;
 		}
 		.container {
-			grid-template-rows: 1fr 1fr;
+			grid-template-rows: 2fr 1fr;
 		}
 		.left-side {
 			margin-bottom: 16px;
@@ -254,6 +254,7 @@
 				margin-bottom: 16px;
 			}
 			ul {
+				justify-content: flex-start;
 				width: max-content;
 				flex-direction: column;
 			}
@@ -262,7 +263,7 @@
 				margin-bottom: 8px !important;
 			}
 
-			li:last-child {
+			li:nth-child(2) {
 				border: none;
 			}
 			img {
@@ -273,6 +274,15 @@
 	}
 
 	@media screen and (max-height: 650px) {
+		.right-side {
+			li:nth-child(3),
+			li:last-child {
+				display: none;
+			}
+		}
+	}
+
+	@include max-height(800px) {
 		.right-side {
 			li:nth-child(3),
 			li:last-child {

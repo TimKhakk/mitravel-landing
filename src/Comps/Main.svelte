@@ -39,7 +39,7 @@
 	@import '../Scss/mixins.scss';
 	main {
 		color: white;
-		height: calc(100% - 132px);
+		height: calc(100% - 131px);
 	}
 	.container {
 		display: grid;

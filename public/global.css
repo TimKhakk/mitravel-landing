@@ -93,7 +93,7 @@ input:focus {
 	line-height: 1.25em;
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 850px) {
 	section,
 	.first {
 		height: auto !important;

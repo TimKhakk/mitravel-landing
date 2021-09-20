@@ -143,7 +143,7 @@
 	}
 
 	// <=1024
-	@include max-screen(1024px) {
+	@include screen(1024px, 1250px) {
 		.video {
 			grid-column: 2/4;
 		}
@@ -161,22 +161,14 @@
 			display: none;
 		}
 		label {
-			grid-column: span 3;
+			grid-column: 1/4 !important;
 			border-top-right-radius: 4px;
 			padding: 30px 40px;
 			height: 90px;
 		}
 	}
 
-	@include max-height(800px) {
-		h1 {
-			font-size: 3em;
-			width: auto;
-			grid-column: span 3;
-		}
-		main {
-			height: calc(100% - 88px);
-		}
+	@include max-screen(800px) {
 		label,
 		.video__bot {
 			padding: 30px 40px;
@@ -187,8 +179,28 @@
 		}
 
 		label {
-			margin-top: 20px;
 			grid-column: 1/3;
+		}
+	}
+	@include max-height(800px) {
+		h1 {
+			font-size: 3em;
+			width: auto;
+			grid-column: 1/3;
+		}
+
+		label {
+			margin-top: 20px;
+		}
+	}
+
+	@include min-height(801px) {
+		label {
+			grid-column: 1/2;
+		}
+
+		.video {
+			grid-column: 2/4;
 		}
 	}
 </style>

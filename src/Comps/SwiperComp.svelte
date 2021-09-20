@@ -101,4 +101,10 @@
 			height: 60px;
 		}
 	}
+
+	@include max-height(800px) {
+		.play {
+			display: none;
+		}
+	}
 </style>

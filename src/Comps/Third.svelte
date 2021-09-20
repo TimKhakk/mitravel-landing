@@ -284,6 +284,9 @@
 
 	@include max-height(800px) {
 		.right-side {
+			li {
+				border: none !important;
+			}
 			li:nth-child(3),
 			li:last-child {
 				display: none;

@@ -169,6 +169,11 @@
 	}
 
 	@include max-height(800px) {
+		h1 {
+			font-size: 3em;
+			width: auto;
+			grid-column: span 3;
+		}
 		main {
 			height: calc(100% - 88px);
 		}
@@ -182,6 +187,7 @@
 		}
 
 		label {
+			margin-top: 20px;
 			grid-column: 1/3;
 		}
 	}

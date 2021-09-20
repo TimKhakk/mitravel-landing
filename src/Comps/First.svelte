@@ -30,7 +30,7 @@
 		object-fit: cover;
 		z-index: -999;
 		width: 100%;
-		height: 100vh;
+		height: 100%;
 	}
 	.mask {
 		background: #0b1014;

@@ -17,7 +17,11 @@
 			<label>Name<input type="text" /></label>
 			<label>Email<input type="mail" /></label>
 			<label>Phone<input type="phone" /></label>
-			<button>Sign up now</button>
+			<button
+				on:click={e => {
+					e.preventDefault();
+				}}>Sign up now</button
+			>
 		</form>
 	</div>
 </section>
@@ -98,6 +102,7 @@
 		line-height: 19px;
 		color: $dark-blue;
 		border: none;
+		width: 100%;
 
 		&:focus {
 			outline: none;
@@ -174,9 +179,4 @@
 			margin-bottom: 170px;
 		}
 	}
-
-	// @include max-height(500px) {
-	// 	.container {
-	// 	}
-	// }
 </style>

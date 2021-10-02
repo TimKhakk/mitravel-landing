@@ -1,13 +1,13 @@
 <script>
 	import Svg from '../Default/Svg.svelte';
-	export let idx;
-	export let long;
-	export let featured;
-	export let dest;
-	export let trio;
-	export let text;
-	export let play;
-	export let hover;
+	export let idx = false;
+	export let long = false;
+	export let featured = false;
+	export let dest = false;
+	export let trio = false;
+	export let text = false;
+	export let play = false;
+	export let hover = false;
 </script>
 
 <div class={`item${long ? ' long' : ''}${hover ? ' hover' : ''}`}>

@@ -194,7 +194,7 @@
 		}
 	}
 
-	@include min-height(801px) {
+	@include min-height(1250px) {
 		label {
 			grid-column: 1/2;
 		}

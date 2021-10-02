@@ -284,6 +284,7 @@
 
 	@include max-height(800px) {
 		.right-side {
+			justify-content: flex-start;
 			li {
 				border: none !important;
 			}

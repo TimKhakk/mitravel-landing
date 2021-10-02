@@ -27,3 +27,8 @@
 		@content;
 	}
 }
+@mixin height($min-h, $max-h) {
+	@media screen and (min-height: $min-h) and (max-height: $max-h) {
+		@content;
+	}
+}

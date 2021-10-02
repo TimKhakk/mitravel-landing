@@ -12,23 +12,26 @@
 			war for the first time in 400 years, became the radical center of 1960s social movements
 			and witnessed a complete
 		</p>
-		<button class="button">BUY THE BOOK</button>
+		<button class="button" aria-label="buy the book">BUY THE BOOK</button>
 
 		<label>
 			<input placeholder="Search stories" type="text" />
-			<button><Svg id="search" width="18" height="18" /></button>
+			<button aria-label="search"><Svg id="search" width="18" height="18" /></button>
 		</label>
 
 		<div class="video">
 			<div class="video__top">
-				<img src="images/video__top.jpg" alt="" />
-				<button class="play"><Svg id="play" width="32" height="41" /></button>
+				<img src="images/video__top.webp" alt="" />
+				<button aria-label="play" class="play"><Svg id="play" width="32" height="41" /></button
+				>
 			</div>
 
 			<div class="video__bot">
-				<button> <Svg id="arrow-left" width="14" height="14" /> </button>
+				<button aria-label="to left"> <Svg id="arrow-left" width="14" height="14" /> </button>
 				<span>Wonderful mountain</span>
-				<button> <Svg id="arrow-right" width="14" height="14" /> </button>
+				<button aria-label="to right">
+					<Svg id="arrow-right" width="14" height="14" />
+				</button>
 			</div>
 		</div>
 	</div>

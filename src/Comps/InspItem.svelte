@@ -12,7 +12,7 @@
 
 <div class={`item${long ? ' long' : ''}${hover ? ' hover' : ''}`}>
 	<div class="mask" />
-	<img class="bg" src={`images/insp-${idx}.jpg`} alt="густой лес" />
+	<img class="bg" src={`images/insp-${idx}.webp`} alt="густой лес" />
 
 	{#if hover}
 		<span class="author">Andre Gide</span>
@@ -22,7 +22,7 @@
 	{/if}
 
 	{#if play}
-		<button><Svg id="play3" width="20" height="24.5" /></button>
+		<button aria-label="play"><Svg id="play3" width="20" height="24.5" /></button>
 	{/if}
 
 	{#if featured}
@@ -37,13 +37,13 @@
 	<div class="avas">
 		<img
 			class={`ava${!trio ? ' up' : ''}`}
-			src={`images/insp-ava-${idx}a.jpg`}
+			src={`images/insp-ava-${idx}a.webp`}
 			alt="аватар мужчины"
 		/>
-		<img class="ava" src={`images/insp-ava-${idx}b.jpg`} alt="аватар мужчины" />
+		<img class="ava" src={`images/insp-ava-${idx}b.webp`} alt="аватар мужчины" />
 
 		{#if trio}
-			<img class="ava" src={`images/insp-ava-${idx}c.jpg`} alt="аватар мужчины" />
+			<img class="ava" src={`images/insp-ava-${idx}c.webp`} alt="аватар мужчины" />
 		{/if}
 	</div>
 </div>

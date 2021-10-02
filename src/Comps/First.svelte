@@ -10,7 +10,7 @@
 	on:mousewheel|preventDefault={e => smoothScroll(e, height)}
 	class="first"
 >
-	<img src="images/main.jpg" alt="лес на озере осенью" />
+	<img src="images/main.webp" alt="лес на озере осенью" />
 	<div class="mask" />
 	<Header />
 	<Main />

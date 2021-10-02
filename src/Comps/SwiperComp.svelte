@@ -26,23 +26,23 @@
 	}}
 >
 	<SwiperSlide>
-		<img src="images/featured-videos-1.jpg" alt="белое восточное здание у берега" />
-		<button class="play"><Svg width="20" height="26" id="playAlt" /></button>
+		<img src="images/featured-videos-1.webp" alt="белое восточное здание у берега" />
+		<button aria-label="play" class="play"><Svg width="20" height="26" id="playAlt" /></button>
 		<h3>A Guide To Rocky Mountain Vacations</h3>
 		<div class="mask" />
 	</SwiperSlide>
 
 	<SwiperSlide>
-		<img src="images/sb-4.jpg" alt="белое восточное здание у берега" />
+		<img src="images/sb-4.webp" alt="белое восточное здание у берега" />
 
-		<button class="play"><Svg width="20" height="26" id="playAlt" /></button>
+		<button aria-label="play" class="play"><Svg width="20" height="26" id="playAlt" /></button>
 		<h3>A Guide To Rocky Mountain Vacations</h3>
 		<div class="mask" />
 	</SwiperSlide>
 
 	<SwiperSlide>
-		<img src="images/featured-videos-3.jpg" alt="белое восточное здание у берега" />
-		<button class="play"><Svg width="20" height="26" id="playAlt" /></button>
+		<img src="images/featured-videos-3.webp" alt="белое восточное здание у берега" />
+		<button aria-label="play" class="play"><Svg width="20" height="26" id="playAlt" /></button>
 		<h3>A Guide To Rocky Mountain Vacations</h3>
 		<div class="mask" />
 	</SwiperSlide>

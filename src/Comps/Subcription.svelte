@@ -10,7 +10,7 @@
 			The state of Utah in the United States is home to lots of beautiful National Parks, &
 			Bryce Canyon National Park ranks as three of the most magnificent.
 		</p>
-		<img src="images/subs.jpg" alt="горы" />
+		<img src="images/subs.webp" alt="горы" />
 		<div class="mask" />
 
 		<form>
@@ -18,6 +18,7 @@
 			<label>Email<input type="mail" /></label>
 			<label>Phone<input type="phone" /></label>
 			<button
+				aria-label="sign up"
 				on:click={e => {
 					e.preventDefault();
 				}}>Sign up now</button

@@ -52,7 +52,7 @@
 							height="20"
 						/></label
 					>
-					<button>Subscribe Now</button>
+					<button aria-label="subscribe">Subscribe Now</button>
 				</form>
 			</div>
 		</div>

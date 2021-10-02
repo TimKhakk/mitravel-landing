@@ -4,7 +4,7 @@
 </script>
 
 <section bind:this={height} on:mousewheel|preventDefault={e => smoothScroll(e, height)}>
-	<img class="bg" src="images/third-bg.jpg" alt="" />
+	<img class="bg" src="images/third-bg.webp" alt="" />
 	<div class="mask" />
 	<div class="container">
 		<div class="left-side">
@@ -14,29 +14,29 @@
 				The state of Utah in the United States is home to lots of beautiful National Parks, &
 				Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.
 			</p>
-			<button class="button">read article</button>
+			<button aria-label="read article" class="button">read article</button>
 		</div>
 
 		<div class="right-side">
 			<h2>Featured Stories</h2>
 			<ul>
 				<li>
-					<img src="images/third-1.png" alt="аватар женщины" />
+					<img src="images/third-1.webp" alt="аватар женщины" />
 					<p class="name">Do A Sporting Stag Do In Birmingham</p>
 					<p class="date">13 Dec 2020</p>
 				</li>
 				<li>
-					<img src="images/third-2.png" alt="аватар женщины" />
+					<img src="images/third-2.webp" alt="аватар женщины" />
 					<p class="name">From Wetlands To Canals And Dams Amsterdam Is Alive</p>
 					<p class="date">13 Dec 2020</p>
 				</li>
 				<li>
-					<img src="images/third-3.png" alt="аватар женщины" />
+					<img src="images/third-3.webp" alt="аватар женщины" />
 					<p class="name">Stu Unger Rise And Fall Of A Poker Genius</p>
 					<p class="date">13 Dec 2020</p>
 				</li>
 				<li>
-					<img src="images/third-4.png" alt="аватар женщины" />
+					<img src="images/third-4.webp" alt="аватар женщины" />
 					<p class="name">New Ideas For A Low Cost Vacation On Water</p>
 					<p class="date">13 Dec 2020</p>
 				</li>

@@ -9,9 +9,9 @@
 			<li><a href="/"><Svg id="twitter" /></a></li>
 		</ul>
 
-		<button class="logo">MITRAVEL</button>
+		<button aria-label="logo" class="logo">MITRAVEL</button>
 
-		<button>
+		<button aria-label="side menu">
 			<Svg id="burger" width="48" height="10" />
 		</button>
 	</div>

@@ -17,22 +17,22 @@
 		<h2>Become A Travel Pro In One Easy Lesson</h2>
 		<ul>
 			<li>
-				<img src="images/sb-1.jpg" alt="снежные горы" />
+				<img src="images/sb-1.webp" alt="снежные горы" />
 				<div class="bg" />
 				<h3>Vacation Home Rental Success</h3>
 			</li>
 			<li>
-				<img src="images/sb-2.jpg" alt="горы и ручей" />
+				<img src="images/sb-2.webp" alt="горы и ручей" />
 				<div class="bg" />
 				<h3>Vacation Home Rental Success</h3>
 			</li>
 			<li>
-				<img src="images/sb-3.jpg" alt="замок в лесу на холме" />
+				<img src="images/sb-3.webp" alt="замок в лесу на холме" />
 				<div class="bg" />
 				<h3>Vacation Home Rental Success</h3>
 			</li>
 			<li>
-				<img src="images/sb-4.jpg" alt="белое восточное здание у берега" />
+				<img src="images/sb-4.webp" alt="белое восточное здание у берега" />
 				<div class="bg" />
 				<h3>Vacation Home Rental Success</h3>
 			</li>
@@ -46,16 +46,16 @@
 		slidesPerView={'auto'}
 	>
 		<SwiperSlide>
-			<img src="images/sb-1.jpg" alt="снежные горы" />
+			<img src="images/sb-1.webp" alt="снежные горы" />
 		</SwiperSlide>
 		<SwiperSlide>
-			<img src="images/sb-2.jpg" alt="горы и ручей" />
+			<img src="images/sb-2.webp" alt="горы и ручей" />
 		</SwiperSlide>
 		<SwiperSlide>
-			<img src="images/sb-3-alt.jpg" alt="замок в лесу на холме" />
+			<img src="images/sb-3-alt.webp" alt="замок в лесу на холме" />
 		</SwiperSlide>
 		<SwiperSlide>
-			<img src="images/sb-4.jpg" alt="белое восточное здание у берега" />
+			<img src="images/sb-4.webp" alt="белое восточное здание у берега" />
 		</SwiperSlide>
 	</Swiper>
 </section>
